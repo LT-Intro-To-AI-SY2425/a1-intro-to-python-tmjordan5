@@ -56,8 +56,9 @@ def helloWorld():
     print("Hello world!")
 
 def arithmetic():
-    
-    return "uhhh"
+    x=input("num 1: ")
+    y=input("num 2: ")
+    print(x+y+""+x-y+""+x*y+""+x/y)
 
 def fizbuzz(input_num):
     if(input_num%3==0):
