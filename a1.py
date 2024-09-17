@@ -86,10 +86,7 @@ def mean(lst: List[int]) -> float:
     Returns:
         the mean of the passed in list
     """
-    x=0
-    for el in lst:
-        x+=el
-    return x/len(lst)
+    return sum_list(lst)/len(lst) if lst else 0
 
 
 def median(lst: List[int]) -> float:
@@ -135,8 +132,15 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
 
     Returns:
         the resulting list after playing duck duck goose
+
+    ['Nathan', 'Sasha', 'Sara', 'Jennie', 'Hypothetical 5th person']
     """
-    raise NotImplementedError("duck_duck_goose")
+    n=0
+    while len(lst)>2:
+        n=(n+2)%len(lst)
+        del lst[n]
+        print(lst)
+    return lst
 
 
 # this line causes the nested code to be skipped if the file is imported instead of run
