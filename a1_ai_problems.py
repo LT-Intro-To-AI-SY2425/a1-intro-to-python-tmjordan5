@@ -70,6 +70,41 @@ def fizbuzz(input_num):
     else:
         return input_num
 
+def even_or_odd(n):
+    return "even" if n%2==0 else "odd"
+
+def fibonacci(n):
+    lst=[0]
+    for i in n:
+        if len(lst)==1:
+            lst.append(1)
+        else:
+            lst.append(lst[i]+lst[i+1])
+    return lst
+
+def reverse_list(lst):
+    reversed=[]
+    for i in len(lst):
+        reversed.append(lst[-i])
+    return reversed
+
+def is_palindrome(s):
+    for i in len(s):
+        if s[i]!=s[-i]:
+            return False
+    return True
+
+def count_vowels(s):
+    v=0
+    l="aeiou"
+    for i in len(s):
+        for j in len(l):
+            if s[i]==l[j]:
+                v+=1
+    return v
+
+
+
 assert fizbuzz(1) == 1, "fizzbuzz 1 test"
 assert fizbuzz(3) == "Fizz", "fizzbuzz 3 test"
 assert fizbuzz(4) == 4, "fizzbuzz 4 test"

@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+More confusing than java because there are a lot ore ways to do things
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
 
 
 3. What are some things that you learned through this assignment?
+
+I learned a bit of python syntax, I knew none before
