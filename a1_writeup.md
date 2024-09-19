@@ -18,7 +18,7 @@ More confusing than java because there are a lot ore ways to do things
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+Similar structure but very different syntax, new lines and indents are required
 
 3. What are some things that you learned through this assignment?
 
