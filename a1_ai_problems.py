@@ -103,6 +103,13 @@ def count_vowels(s):
                 v+=1
     return v
 
+def is_prime(n):
+    for i in range(n):
+        if i!=0&i!=1&i!=n:
+            if n%i==0:
+                return False
+    return True
+
 
 
 assert fizbuzz(1) == 1, "fizzbuzz 1 test"
